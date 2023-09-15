@@ -14,7 +14,6 @@ public class WolfPlus
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-	  EntityRegistry.registerGlobalEntityID(EntityWolf00.class, "Wolf00", EntityRegistry.findGlobalUniqueEntityId(), 14144467, 3858176);
-      EntityRegistry.addSpawn(EntityWolf00.class, 50, 2, 6);
+	    EntityRegistry.registerGlobalEntityID(EntityWolf00.class, "Wolf00", EntityRegistry.findGlobalUniqueEntityId(), 14144467, 3858176);
     }
 }

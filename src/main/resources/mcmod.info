@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wolfplus",
+  "name": "Wolf Plus",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Aleft2"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

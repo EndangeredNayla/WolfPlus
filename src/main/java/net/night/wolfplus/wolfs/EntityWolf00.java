@@ -469,24 +469,24 @@ public class EntityWolf00 extends EntityTameable
         this.dataWatcher.updateObject(20, Byte.valueOf((byte)(par1 & 15)));
     }
 	
-	public int getSkin()
+    public int getSkin()
     {
         return this.dataWatcher.getWatchableObjectByte(21);
     }
 
     public void setSkin(int par1)
     {
-        this.dataWatcher.updateObject(20, Byte.valueOf((byte)(par1 & 15)));
+        this.dataWatcher.updateObject(21, Byte.valueOf((byte)(par1)));
     }
-	
-	public int getModel()
+
+    public int getModel()
     {
-        return this.dataWatcher.getWatchableObjectByte(20) & 15;
+        return this.dataWatcher.getWatchableObjectByte(22);
     }
 
     public void setModel(int par1)
     {
-        this.dataWatcher.updateObject(20, Byte.valueOf((byte)(par1 & 15)));
+        this.dataWatcher.updateObject(22, Byte.valueOf((byte)(par1)));
     }
 
     public EntityWolf00 spawnBabyAnimal(EntityAgeable par1EntityAgeable)
@@ -552,7 +552,7 @@ public class EntityWolf00 extends EntityTameable
         {
             if (par1EntityLivingBase instanceof EntityWolf)
             {
-                EntityWolf var3 = (EntityWolf)par1EntityLivingBase;
+                EntityWolf00 var3 = (EntityWolf00) par1EntityLivingBase;
 
                 if (var3.isTamed() && var3.func_130012_q() == par2EntityLivingBase)
                 {

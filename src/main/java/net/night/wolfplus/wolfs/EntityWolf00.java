@@ -1,4 +1,4 @@
-package net.night.wolfplus.wolf;
+package net.night.wolfplus.wolfs;
 
 import net.minecraft.block.BlockColored;
 import net.minecraft.entity.Entity;
@@ -109,8 +109,8 @@ public class EntityWolf00 extends EntityTameable
         this.dataWatcher.addObject(18, new Float(this.getHealth()));
         this.dataWatcher.addObject(19, new Byte((byte)0));
         this.dataWatcher.addObject(20, new Byte((byte)BlockColored.getBlockFromDye(1)));
-		this.dataWatcher.addObject(21, new Byte((byte)0))
-		this.dataWatcher.addObject(22, new Byte((byte)0))
+		this.dataWatcher.addObject(21, new Byte((byte)0));
+		this.dataWatcher.addObject(22, new Byte((byte)0));
     }
 
     protected void playStepSound(int par1, int par2, int par3, int par4)

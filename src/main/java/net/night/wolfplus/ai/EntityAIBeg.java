@@ -1,6 +1,6 @@
 package net.night.wolfplus.ai;
 
-import package net.night.wolfplus.wolfs.EntityWolf00;
+import net.night.wolfplus.wolfs.EntityWolf00;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
